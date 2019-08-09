@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Joaquin Valdes Wiki</title>
+</head>
+
+<body>
+
+  <h1>Joaquin Wiki</h1>
+
+  <img src="https://media.licdn.com/dms/image/C5603AQGb8Ad-i-dFeA/profile-displayphoto-shrink_800_800/0?e=1570665600&v=beta&t=FZFiWrME7Bsk_kHKEX2vcVZ2lO3skHIMxKq4I323qlI" alt="Joaquin" height="150" width="150"/>
+
+  <p>Hello world. My name is Joaquin Valdes. I am a Chilean expat living in Minneapolis, MN. Currently, I work as a Data Analyst for a financial services company, though I initally started my career as an accountant.</p>
+
+  <p>I am married to a native Minnesotan. We have two cats named Norman and Tengo. We love to bike, hike, camp, traveling and eating out. We are big music enthusiast! We have been to dozens of concerts in since we met.</p>
+
+<table border=1>
+
+  <tr>
+    <th>Songs</th>
+    <th>Books</th>
+    <th>Hobbies</th>
+</tr>
+<tr>
+    <td>Chilean national anthem</td>
+    <td>The Encyclopedia Britannica</td>
+    <td>Walking</td>
+</tr>
+<tr>
+    <td>Star-Spangled Banner</td>
+    <td>Thesaurus</td>
+    <td>Sitting</td>
+</tr>
+<tr>
+    <td>La Marseillaise</td>
+    <td>Exford Dictionary</td>
+    <td>Sleeping</td>
+    </tr>
+
+</table>
+
+</body>
