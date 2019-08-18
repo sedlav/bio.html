@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!-- Climate Data Dashboard -->
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Climate Data Dashboard</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<style>
+.dropdown:hover>.dropdown-menu{
+    display: block;
+}
+.sec {
+    margin: 3%;
+    padding: 3%;
+    background-color: white;
+}
+
+
+body {
+  margin: 0;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color:black;
+  text-align: left;
+  background-color: whitesmoke;
+}
+
+#im {
+    max-width: 50%;
+    max-height: 50%;
+    width: auto\9;
+    float: left;
+}
+
+#gal {
+    max-width: 30%;
+    max-height: 30%;
+    width: auto\9;
+    float: left;
+}
+
+</style>
+
+
+<body>
+        <div class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a href="index.html" class="navbar-brand"><b>Latitude</b></a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a href="comparison.html" class="nav-link">Comparison</a></li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown"
+                            role="button" data-togle="dropdown" aria-haspopup="tue" aria-expanded="flase">Plots
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="temp_viz.html">Max Temperature</a>
+                                <a class="dropdown-item" href="humidity_viz.html">Humidity</a>
+                                <a class="dropdown-item" href="cloudiness_viz.html">Cloudiness</a>
+                                <a class="dropdown-item" href="wind_viz.html">Wind Speed</a>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a href="table.html" class="nav-link">Data</a></li>
+                    </ul>
+                </div>
+            </div>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+            
+
+
+<div class="row">
+<div class="sec">
+    <h2>
+        Comparison
+    </h2>
+    <hr class="my-4">
+    <div class="row">
+        <div class="col col-sm">
+                    <img class="img-fluid img-thumbnail" style="margin: 2%;" src="Resources/assets/images/Fig1.png" alt="Temperature Map">
+        </div>
+        <div class="col col-sm">
+                    <img class="img-fluid img-thumbnail" style="margin: 2%;" src="Resources/assets/images/Fig2.png" alt="Temperature Map">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col col-sm">
+                    <img class="img-fluid img-thumbnail" style="margin: 2%;" src="Resources/assets/images/Fig3.png" alt="Temperature Map">
+        </div>
+        <div class="col col-sm">
+                    <img class="img-fluid img-thumbnail" style="margin: 2%;" src="Resources/assets/images/Fig4.png" alt="Temperature Map">
+        </div>
+        </div>
+
+</div>
+
+
+</body>
+
+</html>
